@@ -72,7 +72,7 @@ body {
  * ## links - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 a {
-  color: #ec008c;
+  color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -367,7 +367,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ec008c;
+  background: #ffffff;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #ec008c;
+  color: #ffffff;
 }
 
 dd {
@@ -501,7 +501,7 @@ form,
 }
 
 .pace .pace-progress {
-  background: #ec008c;
+  background: #ffffff;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-  background-color: #ec008c;
+  background-color: #ffffff;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -776,7 +776,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #ec008c;
+  -webkit-text-fill-color: #ffffff;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -835,8 +835,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #ec008c;
-  border-color: #ec008c;
+  background: #ffffff;
+  border-color: #ffffff;
   color: #FFFFFF;
 }
 
@@ -1062,7 +1062,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #ec008c;
+  color: #ffffff;
 }
 
 .stats-tabs li a em {
@@ -1277,7 +1277,7 @@ input::-moz-focus-inner {
 .home-content h3::before {
   content: "";
   display: block;
-  background-color: rgba(236, 0, 140, 0.6);
+  background-color: rgb(255, 255, 255);
   width: 40px;
   height: 1px;
   position: absolute;
@@ -1309,7 +1309,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__subscribe {
-  max-width: 420px;
+  max-width: 620px;
   margin: 4.2rem 0 0 0;
   padding: 0;
   position: relative;
@@ -1352,13 +1352,14 @@ input::-moz-focus-inner {
 
 #mc-form input[type=submit] {
   color: #FFFFFF;
-  background: #ec008c;
-  border-color: #ec008c;
+  background: #00000000;
+  border-color: #ffffff;
   padding: 0 25px;
   margin: 0;
   position: absolute;
   top: 0;
   right: 0;
+
 }
 
 #mc-form label {
@@ -1414,7 +1415,7 @@ input::-moz-focus-inner {
   display: inline-block;
   font-family: "metropolis-regular", sans-serif;
   letter-spacing: 0;
-  background-color: #ec008c;
+  background-color: #000000;
   color: #FFFFFF;
   padding: 9px 12px;
   bottom: 1.3em;
@@ -1424,7 +1425,7 @@ input::-moz-focus-inner {
   display: block;
   width: 1px;
   height: 12rem;
-  background-color: #ec008c;
+  background-color: #ffffff;
   position: absolute;
   right: 84px;
   bottom: 0;
@@ -1483,7 +1484,7 @@ input::-moz-focus-inner {
 
 .home-social span {
   font-size: 1.2rem;
-  color: #ec008c;
+  color: #ffffff;
   right: 6rem;
   opacity: 0;
   visibility: hidden;
@@ -2057,7 +2058,7 @@ html.no-csstransitions .home-content__main {
   content: "";
   width: 80px;
   height: 1px;
-  background-color: rgba(236, 0, 140, 0.6);
+  background-color: rgb(255, 255, 255);
   position: absolute;
   left: 3px;
   top: -3.6rem;
@@ -2067,7 +2068,7 @@ html.no-csstransitions .home-content__main {
   font-family: "metropolis-regular", sans-serif;
   font-size: 1.4rem;
   line-height: 1.286;
-  color: #ec008c;
+  color: #ffffff;
 }
 
 .info-wrapper {
@@ -2205,7 +2206,7 @@ html.no-csstransitions .home-content__main {
   top: 50%;
   right: auto;
   bottom: auto;
-  background-color: #ec008c;
+  background-color: #ffffff;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
@@ -2242,7 +2243,7 @@ html.no-csstransitions .home-content__main {
 
 .info-is-visible .info-menu-icon::before,
 .info-is-visible .info-menu-icon::after {
-  background-color: #ec008c;
+  background-color: #ffffff;
   -webkit-transition-delay: 0s, 0.2s;
   transition-delay: 0s, 0.2s;
 }
