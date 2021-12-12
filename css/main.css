@@ -104,12 +104,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   margin-top: 6rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 3.8rem;
 }
 
 @media only screen and (max-width:600px) {
   h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     margin-top: 5.1rem;
+    margin-bottom: 3.8rem;
   }
 }
 
@@ -482,6 +483,10 @@ dl,
 form,
 .video-container,
 .ss-custom-select {
+  margin-bottom: 0rem;
+}
+
+p,{
   margin-bottom: 3rem;
 }
 
@@ -723,6 +728,8 @@ legend {
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
+  margin-left: 0rem;
+  margin-right: 1rem;
 }
 
 label > .label-text {
@@ -1309,7 +1316,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__subscribe {
-  max-width: 620px;
+  max-width: 650px;
   margin: 4.2rem 0 0 0;
   padding: 0;
   position: relative;
@@ -1327,7 +1334,7 @@ input::-moz-focus-inner {
   padding: 1.2rem 170px 1.2rem 24px;
   background: rgba(255, 255, 255, 0.05);
   color: #FFFFFF;
-  margin-bottom: 1.8rem;
+  margin-bottom: 0rem;
 }
 
 #mc-form input[type="email"]::-webkit-input-placeholder {
@@ -1766,7 +1773,7 @@ html.no-csstransitions .home-content__main {
 
   .home-content__text p {
     font-size: 1.5rem;
-    margin-top: 3.6rem;
+    margin-top: 0rem;
   }
 
   .home-content__counter .time {
