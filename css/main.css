@@ -771,7 +771,7 @@ input[type=checkbox] {
 .squaredThree label {
   cursor: pointer;
   position: absolute;
-  margin-left: 0.5rem;
+  margin-left: 0rem;
   width: 15px;
   height: 15px;
   top: 0;
