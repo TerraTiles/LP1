@@ -758,9 +758,9 @@ input[type="radio"] {
   margin-right: 0.5rem;
 }
 
-/* input[type=checkbox] {
+input[type=checkbox] {
   visibility: hidden;
-} */
+}
 
 .squaredThree {
   /* width: 20px;     */
