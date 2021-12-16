@@ -90,6 +90,7 @@ a:active {
  * # typography & general theme styles - (_document-setup.scss)
  * 
  * ------------------------------------------------------------------- */
+
 h1,
 h2,
 h3,
@@ -1355,6 +1356,7 @@ input::-moz-focus-inner {
   margin-top: 0;
   margin-bottom: 3rem;
   padding-left: 55px;
+  padding-right: 55px;
   position: relative;
 }
 
@@ -1366,6 +1368,17 @@ input::-moz-focus-inner {
   height: 1px;
   position: absolute;
   left: 0;
+  top: 50%;
+}
+
+.home-content h3::after {
+  content: "";
+  display: block;
+  background-color: rgb(255, 255, 255);
+  width: 40px;
+  height: 1px;
+  position: absolute;
+  right: 0;
   top: 50%;
 }
 
@@ -1839,6 +1852,10 @@ html.no-csstransitions .home-content__main {
   .home-content h3::before {
     width: 30px;
   }
+  
+  .home-content h3::after {
+    width: 30px;
+  }
 
   .home-content h1 {
     font-size: 4.2rem;
@@ -2034,9 +2051,14 @@ html.no-csstransitions .home-content__main {
 
   .home-content h3 {
     padding-left: 0;
+    padding-right: 0;
   }
 
   .home-content h3::before {
+    display: none;
+  }
+
+  .home-content h3::after {
     display: none;
   }
 
