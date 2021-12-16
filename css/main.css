@@ -1449,6 +1449,16 @@ input::-moz-focus-inner {
   bottom: 0;
 }
 
+.home-content__line_ {
+  display: block;
+  width: 10%;
+  height: 1px;
+  background-color: #ffffff;
+  position: relative;
+  left: 84px;
+  bottom: 0;
+}
+
 /* ------------------------------------------------------------------- 
  * ## home social - (_site-layout.scss) 
  * ------------------------------------------------------------------- */
@@ -1727,6 +1737,10 @@ html.no-csstransitions .home-content__main {
     right: 54px;
   }
 
+  .home-content__line_ {
+    left: 54px;
+  }
+
   .home-social {
     right: 3.6rem;
   }
@@ -1845,9 +1859,24 @@ html.no-csstransitions .home-content__main {
   .home-content__line {
     display: none;
   }
+
+  .home-content__line_ {
+    display: none;
+  }
+
+  .home-social {
+    top: 35%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
+  .home-social {
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    /* display: none; */
+  }
+
   .home-content__main,
   .home-copyright {
     max-width: 600px;
@@ -1865,9 +1894,7 @@ html.no-csstransitions .home-content__main {
     font-size: 9rem;
   }
 
-  .home-social {
-    display: none;
-  }
+
 }
 
 @media only screen and (max-width: 700px) {
