@@ -1825,7 +1825,11 @@ html.no-csstransitions .home-content__main {
     display: none;
   }
 
-  .home-content__main,
+  .home-content__main{
+    padding-top: 20rem;
+    max-width: 700px;
+  }
+
   .home-copyright {
     max-width: 700px;
   }
