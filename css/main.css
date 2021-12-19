@@ -1581,8 +1581,8 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  margin-bottom: 2%;
-  margin-top: 1%;
+  margin-bottom: 5%;
+  margin-top: 9%;
 }
 
 .wrapper .icon {
@@ -2096,7 +2096,7 @@ html.no-csstransitions .home-content__sub {
   .home-content__main {
     padding-top: 0rem;
     max-width: 700px;
-    padding-top: 30rem;
+    padding-top: 20rem;
     position: relative;
   }
 
@@ -2120,7 +2120,7 @@ html.no-csstransitions .home-content__sub {
 
   .home-content__text {
     padding-right: 0px;
-    margin-bottom: 7.2rem;
+    margin-bottom: 0rem;
   }
 
   .home-content__counter .top {
