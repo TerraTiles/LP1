@@ -1349,6 +1349,31 @@ input::-moz-focus-inner {
   position: relative;
 }
 
+.home-content h2 {
+  font-family: "metropolis-medium", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.286;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  padding-left: 55px;
+  padding-right: 55px;
+  position: relative;
+}
+
+.home-content h2::before {
+  content: "";
+  display: block;
+  background-color: rgb(255, 255, 255);
+  width: 40px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
 .home-content h3 {
   font-family: "metropolis-medium", sans-serif;
   font-size: 1.4rem;
@@ -1589,7 +1614,7 @@ body {
 .wrapper .icon {
   position: relative;
   background-color: #ffffff;
-  border-radius: 50%;
+  border-radius: 15%;
   padding: 15px;
   margin: auto;
   width: 45px;
@@ -2028,6 +2053,10 @@ html.no-csstransitions .home-content__sub {
     padding-left: 45px;
   }
 
+  .home-content h2::before {
+    width: 30px;
+  }
+
   .home-content h3::before {
     width: 30px;
   }
@@ -2245,6 +2274,10 @@ html.no-csstransitions .home-content__sub {
   .home-content h3 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .home-content h2::before {
+    display: none;
   }
 
   .home-content h3::before {
