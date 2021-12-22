@@ -26,14 +26,12 @@
  *
  * =================================================================== */
 
-
 /* ===================================================================
  * # imports - (_imports.scss)
  *
  * ------------------------------------------------------------------- */
 @import url("font-awesome/css/fontawesome-all.css");
 @import url("fonts.css");
-
 
 /* ===================================================================
  * # normalize - (_normalize.scss)
@@ -281,7 +279,6 @@ template {
   display: none;
 }
 
-
 /* ===================================================================
  * # basic/base setup styles - (_basic.scss) 
  *
@@ -325,12 +322,35 @@ video {
 /* ------------------------------------------------------------------- 
  * ## typography resets - (_basic.scss) 
  * ------------------------------------------------------------------- */
-div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   -webkit-font-smoothing: auto;
   -webkit-font-smoothing: antialiased;
   -webkit-font-variant-ligatures: common-ligatures;
@@ -495,7 +515,7 @@ textarea {
 /* ------------------------------------------------------------------- 
  * ## medium size devices - (_grid.scss)
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
   .row .row {
     margin-left: -15px;
     margin-right: -15px;
@@ -560,13 +580,12 @@ textarea {
   .md-full {
     width: 100%;
   }
-
 }
 
 /* ------------------------------------------------------------------- 
  * ## tablets - (_grid.scss)
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 800px) {
   .row {
     width: 90%;
   }
@@ -598,13 +617,12 @@ textarea {
   .hide-on-tablet {
     display: none;
   }
-
 }
 
 /* ------------------------------------------------------------------- 
  * ## mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   .row {
     width: auto;
     padding-left: 25px;
@@ -649,7 +667,6 @@ textarea {
   .hide-on-mobile {
     display: none;
   }
-
 }
 
 /* ------------------------------------------------------------------- 
@@ -658,7 +675,7 @@ textarea {
 
 /* stack columns on small mobile devices
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 400px) {
   .row .row {
     margin-left: 0;
     margin-right: 0;
@@ -676,9 +693,7 @@ textarea {
   [class*="col-"] + [class*="col-"].end {
     float: none;
   }
-
 }
-
 
 /* ===================================================================
  * # block grids - (_grid.scss)
@@ -716,18 +731,18 @@ textarea {
  * Clearing for block grid columns. Allow columns with 
  * different heights to align properly.
  */
-.block-1-6 .col-block:nth-child(6n+1),
-.block-1-5 .col-block:nth-child(5n+1),
-.block-1-4 .col-block:nth-child(4n+1),
-.block-1-3 .col-block:nth-child(3n+1),
-.block-1-2 .col-block:nth-child(2n+1) {
+.block-1-6 .col-block:nth-child(6n + 1),
+.block-1-5 .col-block:nth-child(5n + 1),
+.block-1-4 .col-block:nth-child(4n + 1),
+.block-1-3 .col-block:nth-child(3n + 1),
+.block-1-2 .col-block:nth-child(2n + 1) {
   clear: both;
 }
 
 /* ------------------------------------------------------------------- 
  * ## medium size devices - (_grid.scss)
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
   .block-m-1-6 .col-block {
     width: 16.66667%;
   }
@@ -757,20 +772,19 @@ textarea {
     clear: none;
   }
 
-  .block-m-1-6 .col-block:nth-child(6n+1),
-  .block-m-1-5 .col-block:nth-child(5n+1),
-  .block-m-1-4 .col-block:nth-child(4n+1),
-  .block-m-1-3 .col-block:nth-child(3n+1),
-  .block-m-1-2 .col-block:nth-child(2n+1) {
+  .block-m-1-6 .col-block:nth-child(6n + 1),
+  .block-m-1-5 .col-block:nth-child(5n + 1),
+  .block-m-1-4 .col-block:nth-child(4n + 1),
+  .block-m-1-3 .col-block:nth-child(3n + 1),
+  .block-m-1-2 .col-block:nth-child(2n + 1) {
     clear: both;
   }
-
 }
 
 /* ------------------------------------------------------------------- 
  * ## tablets - (_grid.scss)
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 800px) {
   .block-tab-1-6 .col-block {
     width: 16.66667%;
   }
@@ -800,20 +814,19 @@ textarea {
     clear: none;
   }
 
-  .block-tab-1-6 .col-block:nth-child(6n+1),
-  .block-tab-1-6 .col-block:nth-child(5n+1),
-  .block-tab-1-4 .col-block:nth-child(4n+1),
-  .block-tab-1-3 .col-block:nth-child(3n+1),
-  .block-tab-1-2 .col-block:nth-child(2n+1) {
+  .block-tab-1-6 .col-block:nth-child(6n + 1),
+  .block-tab-1-6 .col-block:nth-child(5n + 1),
+  .block-tab-1-4 .col-block:nth-child(4n + 1),
+  .block-tab-1-3 .col-block:nth-child(3n + 1),
+  .block-tab-1-2 .col-block:nth-child(2n + 1) {
     clear: both;
   }
-
 }
 
 /* ------------------------------------------------------------------- 
  * ## mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   .block-mob-1-6 .col-block {
     width: 16.66667%;
   }
@@ -843,14 +856,13 @@ textarea {
     clear: none;
   }
 
-  .block-mob-1-6 .col-block:nth-child(6n+1),
-  .block-mob-1-5 .col-block:nth-child(5n+1),
-  .block-mob-1-4 .col-block:nth-child(4n+1),
-  .block-mob-1-3 .col-block:nth-child(3n+1),
-  .block-mob-1-2 .col-block:nth-child(2n+1) {
+  .block-mob-1-6 .col-block:nth-child(6n + 1),
+  .block-mob-1-5 .col-block:nth-child(5n + 1),
+  .block-mob-1-4 .col-block:nth-child(4n + 1),
+  .block-mob-1-3 .col-block:nth-child(3n + 1),
+  .block-mob-1-2 .col-block:nth-child(2n + 1) {
     clear: both;
   }
-
 }
 
 /* ------------------------------------------------------------------- 
@@ -859,7 +871,7 @@ textarea {
 
 /* stack columns on small mobile devices
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 400px) {
   .stack .col-block {
     width: 100% !important;
     float: none !important;
@@ -867,9 +879,7 @@ textarea {
     margin-left: 0;
     margin-right: 0;
   }
-
 }
-
 
 /* ===================================================================
  * # MISC - (_grid.scss)

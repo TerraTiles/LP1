@@ -5,7 +5,6 @@
  *
  * =================================================================== */
 
-
 /* ===================================================================
  * preloader - (_preloader-line-scale-pulse-out.scss)
  *
@@ -74,7 +73,6 @@
     -webkit-transform: scaley(1);
     transform: scaley(1);
   }
-
 }
 
 @keyframes line-scale-pulse-out {
@@ -92,7 +90,6 @@
     -webkit-transform: scaley(1);
     transform: scaley(1);
   }
-
 }
 
 /* ===================================================================
@@ -103,11 +100,10 @@ html {
   font-size: 10px;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 400px) {
   html {
     font-size: 9.411764705882353px;
   }
-
 }
 
 body {
@@ -142,7 +138,7 @@ a:active {
 h1,
 h3 {
   font-family: "metropolis-semibold", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
   font-style: normal;
   text-rendering: optimizeLegibility;
   margin-bottom: 2.1rem;
@@ -155,11 +151,10 @@ p.lead {
   margin-bottom: 3.6rem;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 800px) {
   p.lead {
     font-size: 1.8rem;
   }
-
 }
 
 /* ===================================================================
@@ -194,29 +189,27 @@ header .row {
   max-width: 880px;
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
   header .row {
     max-width: 700px;
   }
-
 }
 
 header h1 {
   font-size: 5.2rem;
   line-height: 1.385;
-  letter-spacing: -.1rem;
+  letter-spacing: -0.1rem;
 }
 
 header h1 span {
   color: #ffffff;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   header h1 {
     font-size: 4rem;
-    letter-spacing: -.07rem;
+    letter-spacing: -0.07rem;
   }
-
 }
 
 /* ------------------------------------------------------------------- 
@@ -276,7 +269,7 @@ main .entry__thumb a::after {
   left: 50%;
   top: 50%;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
@@ -314,18 +307,16 @@ main .entry__title h3 {
  * responsive:
  * main
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
   main .row {
     max-width: 900px;
   }
-
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 800px) {
   main .row {
     max-width: 500px;
   }
-
 }
 
 /*# sourceMappingURL=demo.css.map */
