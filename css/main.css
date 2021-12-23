@@ -2119,9 +2119,9 @@ html.no-csstransitions .home-content__sub {
     padding-bottom: 0;
   }
 
-  .home-content br {
+  /* .home-content br {
     display: none;
-  }
+  } */
 
   .home-content__main {
     padding-top: 0rem;
