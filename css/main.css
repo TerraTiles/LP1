@@ -1437,9 +1437,10 @@ input::-moz-focus-inner {
 }
 
 .home-content__text p {
+  font-family: "metropolis-medium", sans-serif;
   font-size: 1.8rem;
   line-height: 2;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
   margin-top: 0rem;
   margin-right: 0%;
 }
